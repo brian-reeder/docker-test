@@ -23,7 +23,7 @@ describe('AppComponent', () => {
   it(`should have as title 'docker-test'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('docker-test-bofa');
+    expect(app.title).toEqual('docker-test');
   });
 
   it('should render title', () => {
